@@ -1,3 +1,20 @@
+/*
+3.SORU: Bir banka sistemi için temel bir Hesap sınıfı oluşturun. Bu sınıftan türeyen VadesizHesap ve VadeliHesap sınıflarını tanımlayın.
+Her hesap, hesap numarası, bakiye ve hesap sahibine sahiptir. VadeliHesap sınıfında vade süresi ve faiz oranı, VadesizHesap sınıfında ise ek hesap limiti bulunsun.
+
+Aşağıdaki işlemleri gerçekleştirin:
+ Her hesap türü için bir ParaYatir() metodu oluşturun. Bu metodun çıktısı her türetilmiş sınıf için farklı olmalı.
+ Her hesap türü için bir ParaCek() metodu oluşturun. VadeliHesap sınıfında vade dolmadan para çekme işlemi yapılmaya çalışılırsa kullanıcıya uyarı verilsin.
+ Hesap sınıfında genel bir BilgiYazdir() metodu tanımlayın.
+ Program, kullanıcıdan hesap türünü seçmesini, hesap bilgilerini almasını ve işlem yapmasını sağlayacak şekilde çalışmalıdır.
+
+Beklenen Çıktı:
+ Kullanıcı, VadesizHesap veya VadeliHesap türlerinden birini seçebilir.
+ Hesaba para yatırma, para çekme ve hesap bilgilerini yazdırma işlemleri doğru şekilde gerçekleştirilmeli.
+ Vadeli hesapta vade dolmadan para çekme işlemi yapılmaya çalışıldığında, uygun uyarı verilmelidir.
+*/
+
+
 using System;
 
 namespace BankaSistemi
@@ -61,8 +78,6 @@ namespace BankaSistemi
     }
 
 
-
-```csharp
     // VadeliHesap sınıfı
     class VadeliHesap : Hesap
     {
