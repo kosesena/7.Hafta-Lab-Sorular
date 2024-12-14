@@ -1,3 +1,18 @@
+/*
+2.SORU: Bir hayvanat bahçesi yönetim sistemi yazınız. Temel bir Hayvan sınıfı oluşturun ve bu sınıftan türeyen Memeli ve Kus sınıflarını tanımlayın.
+Her hayvanın adı, türü ve yaş bilgisi vardır. Memeli sınıfında TuyRengi, Kus sınıfında ise KanatGenisligi özelliği bulunsun. Ayrıca her hayvanın bir ses çıkarmasını sağlamak için SesCikar() metodunu her sınıfta farklı şekilde tanımlayın.
+
+Aşağıdaki işlemleri gerçekleştirin:
+ Hayvan sınıfında bir SesCikar() metodu oluşturun. Bu metodun çıktısı her türetilmiş sınıf için farklı olmalı.
+ Memeli ve Kus sınıflarında SesCikar() metodunu override edin.
+ Program, kullanıcıdan hayvan türünü seçmesini ve ardından seçilen hayvanın bilgilerini ve sesini yazdırmasını sağlasın.
+
+Beklenen Çıktı:
+ Eğer kullanıcı Memeli seçerse, memelinin bilgileri ve ses çıkarma durumu yazdırılmalı.
+ Eğer kullanıcı Kus seçerse, kuşun bilgileri ve ses çıkarma durumu yazdırılmalı.
+*/
+
+
 using System;
 
 namespace HayvanatBahcesi
