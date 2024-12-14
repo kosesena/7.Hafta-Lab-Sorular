@@ -1,3 +1,17 @@
+/*
+1. Bir şirketin çalışanlarını yöneten bir program yazmanız isteniyor. Temel bir Calisan sınıfı oluşturun ve bu sınıftan türeyen Yazilimci ve Muhasebeci sınıflarını tanımlayın.
+Her çalışan, ad, soyad, maaş ve pozisyon bilgilerine sahiptir. Yazilimci sınıfında yazılım dili bilgisi, Muhasebeci sınıfında ise kullandığı muhasebe yazılımı bilgisi bulunsun.
+
+Aşağıdaki işlemleri gerçekleştirin:
+ Calisan sınıfında bir BilgiYazdir() metodu oluşturun. Bu metodun çıktısı, her türetilmiş sınıf için farklı şekilde çalışmalı.
+ Yazilimci ve Muhasebeci sınıflarında BilgiYazdir() metodunu override edin.
+ Program, kullanıcıdan çalışan türünü seçmesini ve ardından ilgili çalışanın bilgilerini alarak yazdırmasını sağlasın.
+
+Beklenen Çıktı:
+ Eğer kullanıcı Yazilimci seçerse, yazılımcı bilgileri yazdırılmalı.
+ Eğer kullanıcı Muhasebeci seçerse, muhasebeci bilgileri yazdırılmalı.
+*/
+
 using System;
 
 namespace SirketCalisanlari
