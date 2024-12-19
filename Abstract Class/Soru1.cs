@@ -1,4 +1,5 @@
-/* Açıklama: Bir banka hesabı yönetim sistemi tasarlamanız isteniyor. Bu sistemde, soyut
+/* 
+1.SORU: Bir banka hesabı yönetim sistemi tasarlamanız isteniyor. Bu sistemde, soyut
 sınıflar ve arayüzler kullanarak farklı hesap türlerinin özelliklerini yönetmelisiniz.
 Görevler:
 1. Soyut Hesap sınıfını oluşturun: Bu sınıfın HesapNo, Bakiye gibi özellikleri ve
